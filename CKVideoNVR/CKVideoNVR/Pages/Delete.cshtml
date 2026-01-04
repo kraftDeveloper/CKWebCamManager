@@ -1,0 +1,11 @@
+﻿@page "{id}"
+@model DeleteModel
+
+<h2>Delete Camera</h2>
+
+<p>Are you sure you want to delete "@Model.Camera.Name"?</p>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-page="/Index" class="btn btn-secondary">Cancel</a>
+</form>

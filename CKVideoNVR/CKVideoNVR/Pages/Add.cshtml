@@ -1,0 +1,25 @@
+﻿@page
+@model AddModel
+
+<h2>Add Camera</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Camera.Name">Name</label>
+        <input asp-for="Camera.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Camera.Ip">IP:Port or URL</label>
+        <input asp-for="Camera.Ip" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Camera.Username">Username</label>
+        <input asp-for="Camera.Username" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Camera.Password">Password</label>
+        <input asp-for="Camera.Password" class="form-control" type="password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    <a asp-page="/Index" class="btn btn-secondary">Cancel</a>
+</form>
