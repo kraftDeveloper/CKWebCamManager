@@ -1,4 +1,4 @@
-﻿namespace CKVideoNVRWeb.Models
+﻿namespace CKWebCamManager.Models
 {
     public class Camera
     {

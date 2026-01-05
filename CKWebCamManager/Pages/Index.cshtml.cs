@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using CKVideoNVRWeb.Services;
-using CKVideoNVRWeb.Models;
+using CKWebCamManager.Services;
+using CKWebCamManager.Models;
 using System.Collections.Generic;
 
-namespace CKVideoNVRWeb.Pages
+namespace CKWebCamManager.Pages
 {
     public class IndexModel : PageModel
     {

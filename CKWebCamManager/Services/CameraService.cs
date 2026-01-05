@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using Microsoft.Extensions.Hosting;
 
-namespace CKVideoNVRWeb.Services
+namespace CKWebCamManager.Services
 {
     public class CameraService : IHostedService
     {
